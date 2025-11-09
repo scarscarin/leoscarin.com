@@ -10,26 +10,27 @@ I am starting to see websites less as permanent footprints and more as seasonal 
 
 Starting from January!
 
-leoscarin.com
-│
-├── index.html (current season)
-│
-├── seasons
-│   ├── january
-│   ├── february
-│   ├── march
-│   └── ...
-├── assets
-│   ├── images
-│   ├── fonts
-│   ├── json (for cms and data structures)
-│   └── ...
-├── projects
-│   ├── future-dance-of-nostalgia
-│   ├── collective-algorithm-of-care
-│   └── ...
-│
-│   (web projects lying on root)
-├── spill-the-gpt
-├── digital-fart
+leoscarin.com  
+├── index.html *(current season)*  
+│  
+├── seasons  
+│   ├── january  
+│   ├── february  
+│   ├── march  
+│   └── ...  
+│  
+├── assets  
+│   ├── images  
+│   ├── fonts  
+│   ├── json *(for CMS and data structures)*  
+│   └── ...  
+│  
+├── projects  
+│   ├── future-dance-of-nostalgia  
+│   ├── collective-algorithm-of-care  
+│   └── ...  
+│  
+│ *(web projects lying on root)*  
+├── spill-the-gpt  
+├── digital-fart  
 └── ...
