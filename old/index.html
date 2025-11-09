@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Interactive Media Art & Design studio researching the social effects of new technologies.">
+
+    <link rel="icon" sizes="192x192" href="">
+    <link rel="apple-touch-icon" href="">
+    <link rel="mask-icon" href="" color="blue">
+
+    <meta name="google-site-verification" content="verification_token">
+    <meta name="yandex-verification" content="verification_token">
+    <meta name="msvalidate.01" content="verification_token">
+    <meta name="alexaVerifyID" content="verification_token">
+    <meta name="p:domain_verify" content="code_from_pinterest">
+    <meta name="norton-safeweb-site-verification" content="norton_code">
+
+    <meta property="og:url" content="http://www.leoscarin.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Leo Scarin – Creative Technologist">
+    <meta property="og:image" content="">
+    <meta property="og:image:alt" content="">
+    <meta property="og:description" content="Interactive and Immersive Media Designer researching the social effects of New Technologies through Computational Art & Design.">
+    <meta property="og:site_name" content="Leo Scarin">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@scarscarin">
+    <meta name="twitter:url" content="http://www.leoscarin.com">
+    <meta name="twitter:title" content="Content Title">
+    <meta name="twitter:description" content="Interactive and Immersive Media studio researching the social effects of New Technologies through Computational Art & Design.">
+    <meta name="twitter:image" content="">
+    <meta name="twitter:image:alt" content="">
+
+
+    <link type="text/css" rel="stylesheet" href="main.css">
+
+    <style>
+		@font-face {
+			font-family: MonumentExtended-Black;
+			src: url('fonts/PPMonumentExtended-Black.otf') format('opentype');
+		}
+
+    @font-face {
+			font-family: MonumentExtended-Blackitalic;
+			src: url('fonts/PPMonumentExtended-BlackItalic.otf') format('opentype');
+		}
+
+    @font-face {
+      font-family: Redaction-Regular;
+      src: url('fonts/Redaction-Regular.woff2') format('woff');
+    }
+    @font-face {
+      font-family: Redaction-Bold;
+      src: url('fonts/Redaction-Bold.woff2') format('woff');
+    }
+
+    @font-face {
+      font-family: Redaction_35-Regular;
+      src: url('fonts/Redaction_35-Regular.woff2') format('woff');
+    }
+    @font-face {
+      font-family: Redaction_100-Bold;
+      src: url('fonts/Redaction_100-Bold.woff2') format('woff');
+    }
+
+    @font-face {
+      font-family: Redaction_35-Italic;
+      src: url('fonts/Redaction_35-Italic.woff2') format('woff');
+    }
+
+		html{--main-bg-color: white;--main-sh-color: pink; --main-link-color: black}
+			body{background-color: black;overflow: hidden}
+
+			.heading{font-family: 'MonumentExtended-Black'; top: 0}
+			a {color:inherit;text-decoration: none;}
+			.float-left {float:left;} .float-right {float:right;} .align-right{text-align: right} .align-left{text-align: left}
+			.nav-index {color:black; text-shadow: 0 0 3px white, 0 0 5px azure; font-size: 10vh; display: inline-block; text-decoration: none; padding: 2%}
+			.nav-index:hover {transition: 1.5s; color: DeepPink}
+			.list{font-family: 'MonumentExtended-Blackitalic'; display:inline-block; font-size: 6vh; line-height: 12vh; text-align: justify; text-justify:inter-character}
+			.button{background-color: none;color:white;border-radius:4em; border:thin solid; align-self:center; padding:0.1em 0.5em 0.2em}
+			.button:hover{transition: .25s;background-color: var(--main-bg-color); color:black;}
+			ul {overflow: auto}
+			li {list-style-type: none}
+
+      #threejs {display:block;position:absolute;top:0;z-index:-1;}
+
+      .content {font-family:Redaction_35-Regular;max-height:72vh; overflow: auto; }
+      .content:hover {font-family:Redaction_100-Regular}
+      .overlay {position: absolute; top: 0; bottom: 0; left: 0; right: 0; transition: 0.25s; visibility: hidden; opacity: 0;}
+      .overlay.light {background: rgba(0,0,0,0.75);}
+      .cancel {position: absolute; width: 100%; height: 100%; cursor: default;}
+      .overlay:target {visibility: visible; opacity: 1;}
+      .popup {margin:1% auto; padding: 2%; background: #fff; border-radius:2em; width: 66vw; position: relative;}
+      .menu_popup {margin:5% auto; text-align:center; padding: 2%; background: black; color: white; border:thin solid white; border-radius:2em; width: 50vw; position: relative;}
+      .menu_txt{font-family:Redaction_35-Regular}
+      .head_img {text-align: center; }
+      .txt {font-family: Redaction_35-Regular; font-size:3vh; width:48% }
+      h2 {font-family:Redaction_100-Bold;font-size: 2em}
+      h3 {font-family:Redaction_35-Regular}
+
+      .tag{font-family: Redaction_35-Italic;border:thin solid; border-radius: 2em; padding:0.1em 0.5em 0.2em; line-height:2em}
+
+      footer {margin:1.5% auto;color:white; font-family: Redaction-Regular; font-size:1.25em;text-align: center}
+
+		</style>
+
+
+  </head>
+  <body>
+
+    <nav class='heading'>
+      <ul align='left'>
+        <li>
+          <a href='' class='nav-index float-left'>LEO SCARIN</a>
+        </li>
+        <li>
+          <a href='#menu' class='nav-index float-right'>↙</a>
+        </li>
+      </ul>
+    </nav>
+
+    <nav id='list' class='list'>
+      <a href='#FDON' class='button'>Future Dance of Nostalgia</a>
+      <a href='#otherworlds'  class='button'>Otherworlds</a>
+      <a href='#fragments'  class='button'>Fragments</a>
+      <a href='#volumetric'  class='button'>Volumetric Interviews</a>
+      <a href='#variations'  class='button'>Variations on a Remote Room</a>
+      <a href='#avalonia'  class='button'>Avalonia</a>
+      <a href='#LSDLE'  class='button'>La Symphonie de l'Environnement</a>
+      <a href='#metaphysical' class='button'>Metaphysical Tastings</a>
+      <a href='#STRP' class='button'>STRP Scenario 15</a>
+    </nav>
+
+<!-- // menu : dark background con colore bianco, Titolo: Leo Scarin, sottotitolo: Creative Technollogist; descrizion te la mando -->
+    <div id="menu" class="overlay light">
+    	<a class="cancel" href='/'></a>
+    	 <div class="menu_popup">
+    		<h2>Leo Scarin</h2>
+        <h3>Creative Technologist</h3>
+    		  <div class="content">
+            <div class='menu_txt' style='font-size:1.5em'>
+                <p>
+                  Leo Scarin (b. 1997) is a Creative Technologist based in The Hague, NL, where he graduated at the Royal Academy of Arts ‍👨‍🎨
+                </p>
+                <p>
+                  Researching the meeting points of computational and human technologies, Leo explores social, political, and increasingly environmental impacts of digital culture, by means of interactive and immersive installations 🕸
+                </p>
+                <p>
+                  Among others, Leo Scarin's work has been featured at TodaysArt, FIBER, Rewire, iii, V2_Lab for Unstable Media, STRP, Eye Filmmuseum, and The Grey Space in the Middle 🪐
+                </p>
+                <p>
+                  Drop an email at <a  target='_blank' href='mailto:studio@leoscarin.com'>studio[at]leoscarin.com</a> or follow <a target='_blank' href='https://www.instagram.com/scarscarin'>[at]scarscarin</a> 🐧
+                </p>
+            </div>
+
+  		    </div>
+    	 </div>
+    </div>
+
+    <div id="FDON" class="overlay light">
+      <a class="cancel" href='/'></a>
+       <div class="popup" style='background-color:Coral;color:Darkblue'>
+        <h2>Future Dance of Nostalgia</h2>
+
+          <div class="content">
+            <div class='main_img' style="text-align:center">
+              <img src='imgs/fdon.jpg' width="100%">
+            </div>
+            <div class='txt float-left'>
+              <h3>iii @ Rewire Festival, 2022 | Kexin Hao (Leo Scarin, Ludmila Rodrigues, Rachwill Breidel, Pedro Gossler)</h3>
+              <p>
+                <span class='tag'>archive</span>
+                <span class='tag'>body</span>
+                <span class='tag'>choreography</span>
+                <span class='tag'>collaborative</span>
+                <span class='tag'>history</span>
+                <span class='tag'>social</span>
+                <span class='tag'>AI</span>
+              </p>
+              <p>
+                — Game Design<br>
+                — Interaction Design<br>
+                — Installation<br>
+                — Body Tracking<br>
+                — Infrared Sensors<br>
+                — TouchDesigner<br>
+              </p>
+            </div>
+            <div class='txt float-right'>
+              <p>Commissioned by iii and directed by Kexin Hao, 'Future Dance of Nostalgia' explores ancient human activities of production in the form of an interactive dance game and as an investigation into the human body as an archive.</p>
+              <p>'Future Dance of Nostalgia' premiered at Proximity Music: Sensing After Thought, a collaboration between iii and Rewire during Rewire Festival 2022, and has toured since. This work was chosen by Gonzo Circus as one of their Top 10 highlights of Rewire Festival.</p>
+            </div>
+            <div style='text-align:center'>
+              <iframe src="https://player.vimeo.com/video/713650728" width='100%' height='600' frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <span>Video by Tanja Busking</span>
+
+          </div class='content'>
+       </div class='popup'>
+    </div>
+
+    <div id="otherworlds" class="overlay light">
+      <a class="cancel" href='/'></a>
+       <div class="popup" style='background-color:blueviolet; color:aliceblue' >
+        <h2>Otherworlds</h2>
+          <div class="content">
+            <div class='main_img' style="text-align:center">
+              <img src='imgs/otherworlds.jpg' width="100%">
+            </div>
+            <h3>FIBER Festival, 2022 | Sophia Bulgakova (Leo Scarin, Lucas Dewulf)</h3>
+
+            <div class='txt float-left'>
+              <p>
+                <span class='tag'>rituals</span>
+                <span class='tag'>VR</span>
+                <span class='tag'>XR</span>
+                <span class='tag'>AR</span>
+                <span class='tag'>Ukraine</span>
+                <span class='tag'>tradition</span>
+                <span class='tag'>technology</span>
+                <span class='tag'>proprioception</span>
+                <span class='tag'>maypole</span>
+              </p>
+              <p>
+                — VR Design<br>
+                — Interaction Design<br>
+                — Installation<br>
+                — 3D Animation<br>
+                — Raycasting<br>
+                — Augmented Reality<br>
+                — Networked system<br>
+              </p>
+            </div>
+            <div class='txt float-right'>
+              <p>
+                OTHERWORLDS is a multidimensional participatory performance within virtual and physical realities. Starting with Ukrainian traditions, Sophia Bulgakova is exploring and combining paganism from different cultures and other surrounding magical practices with contemporary discourse and technology. She is searching for common grounds to revive and reimagine relating and connecting to nature, technology, and each other by simultaneously creating a new communal and personal ritual. The performative ritual consists of verbal narrations, soundscapes, abstract colour, virtual environments and choreographic compositions through which participants can submerge themselves into otherworldly experiences.
+              </p>
+            </div>
+            <div style='text-align:center'>
+              <iframe src="https://player.vimeo.com/video/754647174" width='100%' height='600' frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <span>Video by Tanja Busking</span>
+
+          </div class='content'>
+       </div class='popup'>
+    </div>
+
+    <div id="fragments" class="overlay light">
+      <a class="cancel" href='/'></a>
+       <div class="popup" style='background-color:salmon; color:white'>
+        <h2>Fragments</h2>
+          <div class="content">
+            <div class='main_img' style="text-align:center">
+              <img src='imgs/fragments.jpg' width="100%">
+            </div>
+            <h3>V2_Lab for Unstable Media: Summer Sessions, 2021 | Leo Scarin (Miro Bollen)</h3>
+
+            <div class='txt float-left'>
+              <p>
+                <span class='tag'>VR</span>
+                <span class='tag'>XR</span>
+                <span class='tag'>volumetric</span>
+                <span class='tag'>haptic</span>
+                <span class='tag'>sound</span>
+                <span class='tag'>digital</span>
+                <span class='tag'>intimacy</span>
+                <span class='tag'>networks</span>
+                <span class='tag'>touch</span>
+                <span class='tag'>interactive</span>
+                <span class='tag'>immersive</span>
+              </p>
+              <p>
+                — Virtual Reality<br>
+                — Interaction Design<br>
+                — Realtime 3D Scan<br>
+                — Particles VFX<br>
+                — Networked System<br>
+                — Installation<br>
+                — Haptic sensors<br>
+                — Sound Design<br>
+              </p>
+            </div>
+            <div class='txt float-right'>
+              <p>
+                The uncertainty around the promise of physical contact, boosted by the rise of human-spread epidemics, often limits us to digital communication means. The most intimate bodily senses are stuck in the gap between two worlds: one of sensorial reality and 1.5-meter distances, one of data streaming and rapid interconnection.
+              </p>
+              <p>
+                <i>Fragments</i> restores attention to the senses by converting body-tracking data from a human interaction into soundwaves, physical vibrations and immersive visual effects. Bodies and touch become alternative instruments of conversation in the digital realm.
+              </p>
+            </div>
+            <div style='text-align:center'>
+              <iframe src="https://player.vimeo.com/video/654558387?h=db3ce27999" width='100%' height='600' frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+       </div>
+    </div>
+
+    <div id="volumetric" class="overlay light">
+      <a class="cancel" href='/'></a>
+       <div class="popup" style='background-color:blue; color:azure'>
+         <h2>Volumetric Interviews</h2>
+          <div class="content">
+            <div class='main_img' style="text-align:center">
+              <img src='imgs/volumetric.jpg' width="100%">
+            </div>
+            <div class='txt float-left'>
+              <h3>RGBdog, 2021-2022 | RGBdog (Leo Scarin, Peter Pflügler, Princess Camel, KREA.TODAY)</h3>
+              <p>
+                <span class='tag'>volumetric</span>
+                <span class='tag'>filmmaking</span>
+                <span class='tag'>design</span>
+                <span class='tag'>community</span>
+                <span class='tag'>technology</span>
+                <span class='tag'>interviews</span>
+                <span class='tag'>documentary</span>
+                <span class='tag'>XR</span>
+              </p>
+              <p>
+                — Volumetric Capture<br>
+                — Photogrammetry<br>
+                — Particles VFX<br>
+                — Shaders<br>
+              </p>
+            </div>
+            <div class='txt float-right'>
+              <p>
+                RGBdog Presents: Volumetric Interviews introduces creatives based in The Netherlands working at the intersection of music, visual arts and technology, who are focused on developing supportive communities all over the world. The series aims to raise awareness of the creative possibilities of technology and to invite audiences in joining the ongoing broader debate about its benefits and pitfalls.
+              </p>
+              <p>
+                Seeking to push the boundaries of the disciplines of photography, design, and autonomous arts, Volumetric Interviews resorts to a combination of traditional filmmaking and volumetric image capturing techniques! With this experimentation, the series invites the audience to the virtual world where the story takes place.
+              </p>
+            </div>
+
+            <div style='text-align:center'>
+              <iframe width="100%" height="600" src="https://www.youtube.com/embed/o_MjZGsWIqY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
+          </div>
+       </div>
+    </div>
+
+    <div id="variations" class="overlay light">
+    	<a class="cancel" href='/'></a>
+    	 <div class="popup" style='background-color:floralwhite; color:black'>
+    		<h2>Variations on a Remote Room</h2>
+    		  <div class="content">
+            <div class='main_img' style="text-align:center">
+              <img src='imgs/variations.jpg' width="100%">
+            </div>
+            <div class='txt float-left'>
+              <h3>Royal Academy of Arts, 2021 | Leo Scarin</h3>
+              <p>
+                <span class='tag'>digital</span>
+                <span class='tag'>intimacy</span>
+                <span class='tag'>VR</span>
+                <span class='tag'>XR</span>
+                <span class='tag'>volumetric</span>
+                <span class='tag'>isolation</span>
+                <span class='tag'>remote</span>
+              </p>
+              <p>
+                — VR Design<br>
+                — Interaction Design<br>
+                — Installation<br>
+                — Archive<br>
+                — Photogrammetry<br>
+                — Particles VFX<br>
+                — Sound Design<br>
+              </p>
+            </div>
+            <div class='txt float-right'>
+              <p>The advancement of digital technologies paved the way for new hyper-real experiences, allowing us to augment, or else escape our reality. However, in the design of our interaction with new technologies, we seem to be missing our own perception of tangibility.</p>
+
+              <p>Variations on a remote room is a series of digitized living spaces belonging to remote friends and loved ones who could not meet physically for a year. The work is composed by a number of photogrammetries made in remote collaboration and⁠ placed into a Virtual Reality environment where they can re-inhabit, intimately, their domestic spaces.⁠</p>
+            </div>
+            <div style='text-align:center'>
+              <iframe width="100%" height="600" src="https://www.youtube.com/embed/763U3bi7rLE?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+  		    </div>
+    	 </div>
+    </div>
+
+    <div id="avalonia" class="overlay light">
+      <a class="cancel" href='/'></a>
+       <div class="popup" style='background-color:black; color:white'>
+        <h2>Avalonia, Topographies of Impact</h2>
+          <div class="content">
+            <div class='main_img' style="text-align:center">
+              <img src='imgs/avalonia.png' width="100%">
+            </div>
+            <div class='txt float-left'>
+              <h3>Royal Academy of Arts, 2022 | Camila Chebez (Leo Scarin)</h3>
+              <p>
+                <span class='tag'>Avalonia</span>
+                <span class='tag'>ecology</span>
+                <span class='tag'>tecnology</span>
+                <span class='tag'>motion</span>
+                <span class='tag'>body-tracking</span>
+                <span class='tag'>extraction</span>
+                <span class='tag'>UI</span>
+                <span class='tag'>interactivity</span>
+                <span class='tag'>film</span>
+                <span class='tag'>topography</span>
+              </p>
+              <p>
+                — Body-tracking<br>
+                — Interaction Design<br>
+                — UI Design<br>
+                — Realtime render<br>
+                — Projection Mapping<br>
+              </p>
+            </div>
+            <div class='txt float-right'>
+              <p>
+                Along the mining region of the Ruhr in Germany, Camila Chebez encounters Avalonia:  an abandoned sandstone quarry that has turned into a popular climbing crag. Sharing its name with a micro-drifting continent from the Palaeozoic era, this site beckons for a closer look at its porous textures, which archive a deep history of impacting surfaces:
+              </p>
+              <p>
+                Building upon the haptic qualities of the embodied practice of rock climbing, this work is an invitation to (re)explore an Earth too often figured as mute and inert, a wasteland in waiting. By playing with surfaces as a point of contact and projections as a collective memory, "Avalonia Topographies of Impact" puzzles together a narrative where ruins can become playgrounds for more-than-human encounters.
+              </p>
+            </div>
+
+            <div style='text-align:center'>
+              <iframe src="https://player.vimeo.com/video/748484395?h=1f4accfab9" width='100%' height='600' frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+       </div>
+    </div>
+
+    <div id="LSDLE" class="overlay light">
+      <a class="cancel" href='/'></a>
+       <div class="popup" style='background-color:#222;color:white'>
+        <h2>La Symphonie de l'Environnement</h2>
+        <div class="content">
+          <div class='main_img' style="text-align:center">
+            <img src='imgs/lsdle.png' width="100%">
+          </div>
+          <div class='txt float-left'>
+            <h3>Le Broc Festival, 2022 | Leo Scarin</h3>
+            <p>
+              <span class='tag'>environment</span>
+              <span class='tag'>symphony</span>
+              <span class='tag'>technology</span>
+              <span class='tag'>nature</span>
+              <span class='tag'>sustainability</span>
+              <span class='tag'>anthropocene</span>
+              <span class='tag'>3D</span>
+              <span class='tag'>AI</span>
+              <span class='tag'>audiovisual</span>
+              <span class='tag'>RGBmath</span>
+            </p>
+            <p>
+              — Photogrammetry<br>
+              — Particles VFX <br>
+              — Realtime render<br>
+              — Audio reactivity<br>
+              — Datascraping<br>
+              — Photography<br>
+              — Videography<br>
+              — Post-production<br>
+            </p>
+          </div>
+          <div class='txt float-right'>
+            <p>
+              Natural and technological worlds have been existing together for centuries. Only recently, however, we read an imbalance of powers between the two, leading to social crises and environmental catastrophes. Analysing and simulating natural, as well as mechanical, patterns in the French village of Le Broc, La Symphonie de l'Environnement speculates on the relationship between technology and nature of the future.
+            </p>
+            <p>
+              Premiered at the Théâtre de Verdure de Le Broc, La Symphonie de l'Environnement is a collaborative effort between the local villagers together with producers Andrew Bullen, Janine Huizenga, composer Romina Romay, harpist Helvia Briggen, and visual artist Leo Scarin.
+            </p>
+          </div>
+          <div style='text-align:center'>
+            <iframe width="100%" height="600" src="https://www.youtube.com/embed/pZxTwrtGydU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+          </div>
+       </div>
+    </div>
+
+    <div id="metaphysical" class="overlay light">
+      <a class="cancel" href='/'></a>
+       <div class="popup" style='background-color:DarkMagenta; color:MintCream'>
+        <h2>Metaphysical Tastings</h2>
+          <div class="content">
+            <div class='main_img' style="text-align:center">
+              <img src='imgs/metaphysical.jpg' width="100%">
+            </div>
+            <div class='txt float-left'>
+              <h3>Trixie, 2022 | Leo Scarin, Sophia Bulgakova, Lucas Dewulf, Cemre Deniz Kara</h3>
+              <p>
+                <span class='tag'>VR</span>
+                <span class='tag'>XR</span>
+                <span class='tag'>food</span>
+                <span class='tag'>design</span>
+                <span class='tag'>experience</span>
+                <span class='tag'>immersive</span>
+                <span class='tag'>technology</span>
+                <span class='tag'>rituals</span>
+                <span class='tag'>sensorial</span>
+                <span class='tag'>social</span>
+
+              </p>
+            </div>
+            <div class='txt float-right'>
+              <p>
+                A multidisciplinary experience that combines dining rituals and virtual reality. Initiated by Leo Scarin, Sophia Bulgakova, Lucas Dewulf (XRT) & Cemre Deniz Kara, the project explores the sensorial correlations that originate in the combination of participatory, immersive media and food design, as well as the experiential implications of social gatherings in virtual and physical realities.
+              </p>
+            </div>
+            <div style='text-align:center'>
+              <iframe width="100%" height="600" src="https://www.youtube.com/embed/UhxClAuALlk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+       </div>
+    </div>
+
+<div id="STRP" class="overlay light">
+      <a class="cancel" href='/'></a>
+       <div class="popup" style='background-color:DarkSlateBlue;color:snow'>
+        <h2>Remote Embodiments: Ecologies of the Digital Body</h2>
+        <h3>STRP Scenario #15, 2021</h3>
+          <div class="content">
+            <div class='main_img' style="text-align:center">
+              <img src='imgs/strp.jpg' width="100%">
+            </div>
+            <div class='txt float-left'>
+              <h3>STRP, 2021 | Leo Scarin</h3>
+              <p>
+                <span class='tag'>Talk</span>
+                <span class='tag'>Metaverse</span>
+                <span class='tag'>Intimacy</span>
+                <span class='tag'>Tangibility</span>
+                <span class='tag'>Digital</span>
+                <span class='tag'>Experience</span>
+                <span class='tag'>Technology</span>
+                <span class='tag'>Immersive</span>
+                <span class='tag'>Janet Murray</span>
+                <span class='tag'>Game Design</span>
+              </p>
+            </div>
+            <div class='txt float-right'>
+              <p>
+                Hybridity, the mix of online and offline interactions in work, art and life, has become a real buzzword due to the Covid-19 pandemic. In the last few years, artists and cultural institutions have been forced to move into the virtual world. But while festivals, art spaces and events explore these "new" ways of presenting online, digital artists have been experimenting with mixing the physical and the digital for many years.
+              </p>
+            </div>
+            <div style='text-align:center'>
+              <iframe src="https://player.vimeo.com/video/684225037" width='100%' height='600' frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+       </div>
+    </div>
+
+    <footer>
+      <span style='color:white'>Interactive Media Design studio researching the social impacts of technology</span>
+      <a href='https://www.instagram.com/scarscarin' class='float-right' style=''><img src='imgs/instagram_icon.svg' height='30px'></a>
+
+
+    </footer>
+
+
+    		<video id="video" loop muted crossOrigin="anonymous" playsinline style="display:none">
+    			<source src="textures/test.webm">
+    		</video>
+
+    		<script id="vs" type="x-shader/x-vertex">
+
+    			uniform sampler2D map;
+
+    			uniform float width;
+    			uniform float height;
+    			uniform float nearClipping, farClipping;
+
+    			uniform float pointSize;
+    			uniform float zOffset;
+
+    			varying vec2 vUv;
+
+    			const float XtoZ = 1.11146; // tan( 1.0144686 / 2.0 ) * 2.0;
+    			const float YtoZ = 0.83359; // tan( 0.7898090 / 2.0 ) * 2.0;
+
+    			void main() {
+
+    				vUv = vec2( position.x / width, position.y / height );
+
+    				vec4 color = texture2D( map, vUv );
+    				float depth = ( color.r + color.g + color.b ) / 3.0;
+
+    				// Projection code by @kcmic
+
+    				float z = ( 1.0 - depth ) * (farClipping - nearClipping) + nearClipping;
+
+    				vec4 pos = vec4(
+    					( position.x / width - 0.5 ) * z * XtoZ,
+    					( position.y / height - 0.5 ) * z * YtoZ,
+    					- z + zOffset,
+    					1.0);
+
+    				gl_PointSize = pointSize;
+    				gl_Position = projectionMatrix * modelViewMatrix * pos;
+
+    			}
+
+    		</script>
+
+    		<script id="fs" type="x-shader/x-fragment">
+
+    			uniform sampler2D map;
+
+    			varying vec2 vUv;
+
+    			void main() {
+
+    				vec4 color = texture2D( map, vUv );
+    				gl_FragColor = vec4( color.r, color.g, color.b, 2 );
+
+    			}
+
+    		</script>
+
+<script type="module">
+  // CDN imports (pin the version so things don't break unexpectedly)
+  import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.164.0/build/three.module.js';
+  // If you actually use a GUI, prefer lil-gui (what Three’s examples use now):
+  import { GUI } from 'https://cdn.jsdelivr.net/npm/three@0.164.0/examples/jsm/libs/lil-gui.module.min.js';
+
+  let scene, camera, renderer;
+  let geometry, mesh, material;
+  let mouse, center;
+
+  init();
+  animate();
+
+  function init() {
+    const container = document.createElement('div');
+    container.id = 'threejs';
+    document.body.appendChild(container);
+
+    camera = new THREE.PerspectiveCamera(100, window.innerWidth / window.innerHeight, 1, 10000);
+    camera.position.set(0, 0, 1000);
+
+    scene = new THREE.Scene();
+    center = new THREE.Vector3(0, 0, -1000);
+
+    const video = document.getElementById('video');
+    const texture = new THREE.VideoTexture(video);
+    texture.minFilter = THREE.NearestFilter;
+
+    const width = 512, height = 512;
+    const nearClipping = 3000, farClipping = 10000;
+
+    geometry = new THREE.BufferGeometry();
+    const vertices = new Float32Array(width * height * 3);
+    for (let i = 0, j = 0, l = vertices.length; i < l; i += 3, j++) {
+      vertices[i] = j % width;
+      vertices[i + 1] = Math.floor(j / width);
+    }
+    geometry.setAttribute('position', new THREE.BufferAttribute(vertices, 3));
+
+    material = new THREE.ShaderMaterial({
+      uniforms: {
+        map: { value: texture },
+        width: { value: width },
+        height: { value: height },
+        nearClipping: { value: nearClipping },
+        farClipping: { value: farClipping },
+        pointSize: { value: 2 },
+        zOffset: { value: 5000 }
+      },
+      vertexShader: document.getElementById('vs').textContent,
+      fragmentShader: document.getElementById('fs').textContent,
+      blending: THREE.AdditiveBlending,
+      depthTest: false,
+      depthWrite: false,
+      transparent: true
+    });
+
+    mesh = new THREE.Points(geometry, material);
+    scene.add(mesh);
+
+    video.play();
+
+    renderer = new THREE.WebGLRenderer();
+    renderer.setPixelRatio(window.devicePixelRatio);
+    renderer.setSize(window.innerWidth / 1.01, window.innerHeight / 1.01);
+    container.appendChild(renderer.domElement);
+
+    mouse = new THREE.Vector3(0, 0, 1);
+    document.addEventListener('mousemove', onDocumentMouseMove);
+    window.addEventListener('resize', onWindowResize);
+  }
+
+  function onWindowResize() {
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+  }
+
+  function onDocumentMouseMove(event) {
+    mouse.x = (event.clientX - window.innerWidth / 2) * 4;
+    mouse.y = (event.clientY - window.innerHeight / 2) * 4;
+  }
+
+  function animate() {
+    requestAnimationFrame(animate);
+    render();
+  }
+
+  function render() {
+    camera.position.x += (mouse.x - camera.position.x) * 0.05;
+    camera.position.y += (-mouse.y - camera.position.y) * 0.05;
+    camera.lookAt(center);
+    renderer.render(scene, camera);
+  }
+</script>
+
+
+  </body>
+</html>
