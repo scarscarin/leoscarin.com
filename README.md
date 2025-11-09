@@ -9,7 +9,7 @@ In the past years, I struggled a lot at keeping my website updated. Mostly cause
 I am starting to see websites less as permanent footprints and more as seasonal recordings. My website will be plural. It will become one website per month.
 
 Starting from January!
-
+<pre>
 leoscarin.com  
 ├── index.html *(current season)*  
 │  
@@ -34,3 +34,4 @@ leoscarin.com
 ├── spill-the-gpt  
 ├── digital-fart  
 └── ...
+</pre>
