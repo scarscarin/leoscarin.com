@@ -5,6 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leo Scarin</title>
+    <style>
+        @font-face {
+            font-family: "Hershey-Futura-Triplex-Bold";
+            src: url('./assets/fonts/Hershey-Noailles-Futura-Triplex-Bold.otf');
+        }
+
+        @font-face {
+            font-family: "Hershey-Times-Triplex-Regular";
+            src: url('./assets/fonts/Hershey-Noailles-Times-Triplex-Regular.otf');
+        }
+
+        @font-face {
+            font-family: "Hershey-Times-Duplex-Italic";
+            src: url('./assets/fonts/Hershey-Noailles-Times-Duplex-Italic-Regular.otf');
+        }
+
+        @font-face {
+            font-family: "Hershey-Futura-Simplex-Light";
+            src: url('./assets/fonts/Hershey-Noailles-Futura-Simplex-Light.otf');
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            font-family: 'Hershey-Times-Triplex-Regular'
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Hershey-Futura-Triplex-Bold'
+        }
+
+        i {
+            font-family: 'Hershey-Times-Duplex-Italic'
+        }
+
+        main {
+            width: 50%
+        }
+
+        .separate {
+            text-align: center
+        }
+    </style>
 </head>
 
 <body>
@@ -22,7 +74,11 @@
             <option value="artez-mi">Moving Image in ArtEZ, Enschede</option>
         </select>
 
+        <pre class="separate">♥ ♦ ♣ ♠ ♥ ♦ ♣ ♠ ♥ ♦ ♣ ♠ ♥ ♦ ♣ ♠ </pre>
+
+        
         <div id="problems-to-unmake" class="problems unmake">
+            <h3>Problems to unmake</h3>
             <span class="problem">Digital Zionism</span>
             <span class="problem">Data Growth</span>
             <span class="problem">Technological Solutions</span>
@@ -31,6 +87,7 @@
             <span class="problem">"AI is here to stay"</span>
         </div>
         <div id="problems-to-make" class="problems make">
+            <h3>Problems to make</h3>
             <span class="problem">Sabotage</span>
             <span class="problem">Decolonial Code in Arts Curricula</span>
             <span class="problem">Permacomputing</span>
