@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leo Scarin</title>
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="./assets/css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="./assets/css/mobile-style.css">
     <style>
         @font-face {
             font-family: "Hershey-Futura-Triplex-Bold";
@@ -24,74 +26,6 @@
         @font-face {
             font-family: "Hershey-Futura-Simplex-Light";
             src: url('./assets/fonts/Hershey-Noailles-Futura-Simplex-Light.otf');
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        html,
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-flow: row nowrap;
-            justify-content: center;
-            font-family: 'Hershey-Times-Triplex-Regular';
-            font-size: 16pt;
-            overflow-x: hidden;
-        }
-
-        select,
-        option {
-            font-family: 'Hershey-Times-Triplex-Regular';
-            font-size: 0.8em;
-        }
-
-        select {
-            background-color: lightgrey;
-            border-radius: .25em;
-        }
-
-        option {
-            background-color: white;
-        }
-
-        h1,
-        h2,
-        h3 {
-            font-family: 'Hershey-Futura-Triplex-Bold'
-        }
-
-        i {
-            font-family: 'Hershey-Times-Duplex-Italic';
-            font-style: normal;
-        }
-
-        main {
-            width: 50%
-        }
-
-        .separate {
-            text-align: center
-        }
-
-        footer {
-            position: fixed;
-            bottom: 0;
-            padding: 1em;
-            background-color: white;
-            border: 1px solid black;
-        }
-
-        .problem {
-            display: inline-block;
-            white-space: nowrap;
-            border: 1px solid black;
-            border-radius: 1em;
-            padding: 0 0.5em;
-            line-height: 1.2em;
-            margin-bottom: 0.25em
         }
     </style>
 </head>
