@@ -14,19 +14,31 @@ body {
   overflow-x: hidden;
 }
 
-select,
-option {
-  font-family: "Hershey-Times-Triplex-Regular";
-  font-size: 0.8em;
+
+.academy {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 1em;
+  padding: 0.2em 0.6em;
+  user-select: none;
 }
 
-select {
-  background-color: lightgrey;
-  border-radius: 0.25em;
+.academy input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
 }
 
-option {
-  background-color: white;
+/* selected state */
+.academy input:checked + span,
+.academy input:checked {
+  /* fallback */
+}
+
+.academy:has(input:checked) {
+  background: black;
+  color: white;
 }
 
 h1,
