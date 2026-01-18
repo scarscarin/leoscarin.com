@@ -1,21 +1,21 @@
 @font-face {
   font-family: "Hershey-Futura-Triplex-Bold";
-  src: url("./fonts/Hershey-Noailles-Futura-Triplex-Bold.otf");
+  src: url("../fonts/Hershey-Noailles-Futura-Triplex-Bold.otf");
 }
 
 @font-face {
   font-family: "Hershey-Times-Triplex-Regular";
-  src: url("./fonts/Hershey-Noailles-Times-Triplex-Regular.otf");
+  src: url("../fonts/Hershey-Noailles-Times-Triplex-Regular.otf");
 }
 
 @font-face {
   font-family: "Hershey-Times-Duplex-Italic";
-  src: url("./fonts/Hershey-Noailles-Times-Duplex-Italic-Regular.otf");
+  src: url("../fonts/Hershey-Noailles-Times-Duplex-Italic-Regular.otf");
 }
 
 @font-face {
   font-family: "Hershey-Futura-Simplex-Light";
-  src: url("./fonts/Hershey-Noailles-Futura-Simplex-Light.otf");
+  src: url("../fonts/Hershey-Noailles-Futura-Simplex-Light.otf");
 }
 
 * {
