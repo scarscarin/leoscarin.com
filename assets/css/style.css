@@ -1,5 +1,28 @@
+@font-face {
+  font-family: "Hershey-Futura-Triplex-Bold";
+  src: url("./assets/fonts/Hershey-Noailles-Futura-Triplex-Bold.otf");
+}
+
+@font-face {
+  font-family: "Hershey-Times-Triplex-Regular";
+  src: url("./assets/fonts/Hershey-Noailles-Times-Triplex-Regular.otf");
+}
+
+@font-face {
+  font-family: "Hershey-Times-Duplex-Italic";
+  src: url("./assets/fonts/Hershey-Noailles-Times-Duplex-Italic-Regular.otf");
+}
+
+@font-face {
+  font-family: "Hershey-Futura-Simplex-Light";
+  src: url("./assets/fonts/Hershey-Noailles-Futura-Simplex-Light.otf");
+}
+
 * {
   box-sizing: border-box;
+
+  /* situate this better in prod */
+  user-select: none;
 }
 
 html,
@@ -14,29 +37,26 @@ body {
   overflow-x: hidden;
 }
 
-
-.academy {
-  display: inline-block;
+.art-academy {
   cursor: pointer;
   border: 1px solid black;
-  border-radius: 1em;
   padding: 0.2em 0.6em;
-  user-select: none;
+  margin-right: 0.2em;
+  display: inline-block;
+  white-space: wrap;
 }
 
-.academy input {
-  position: absolute;
-  opacity: 0;
-  pointer-events: none;
+.art-academy input {
+  display: none;
 }
 
 /* selected state */
-.academy input:checked + span,
-.academy input:checked {
+.art-academy input:checked + span,
+.art-academy input:checked {
   /* fallback */
 }
 
-.academy:has(input:checked) {
+.art-academy:has(input:checked) {
   background: black;
   color: white;
 }
@@ -50,10 +70,6 @@ h3 {
 i {
   font-family: "Hershey-Times-Duplex-Italic";
   font-style: normal;
-}
-
-main {
-  width: 50%;
 }
 
 .separate {
