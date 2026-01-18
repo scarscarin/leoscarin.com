@@ -37,6 +37,9 @@ body {
   overflow-x: hidden;
 }
 
+#bio{
+  user-select:all !important
+} 
 .art-academy {
   cursor: pointer;
   border: 1px solid black;
