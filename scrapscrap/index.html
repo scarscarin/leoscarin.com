@@ -33,9 +33,38 @@
             border: 1px solid black
         }
 
-        button{
+        button {
             font-family: "Terminal Grotesque";
             font-size: 1.2em
+        }
+
+        .pick {
+            position: absolute;
+            animation: scroll 30s linear;
+            font-size: 2em;
+            top: 0;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateY(0vh) rotate(-10deg);
+            }
+
+            25% {
+                transform: translateY(25vh) rotate(-20deg);
+            }
+
+            50% {
+                transform: translateY(50vh) rotate(0deg);
+            }
+
+            75% {
+                transform: translateY(75vh) rotate(-20deg);
+            }
+
+            100% {
+                transform: translateY(100vh) rotate(-10deg);
+            }
         }
     </style>
 </head>
@@ -43,7 +72,8 @@
 <body>
     <h1>scrap, scrap... You are the web crawler!</h1>
 
-    <button style="float:right; margin-bottom: 3em"><a href="https://link.excalidraw.com/l/8fFb2rptKCY/GNvEfhWpAW">Excalidraw board</a></button>
+    <button style="float:right; margin-bottom: 3em"><a
+            href="https://link.excalidraw.com/l/8fFb2rptKCY/GNvEfhWpAW">Excalidraw board</a></button>
     <button id="copyBtn">Copy</button>
     <pre id="code"><code>
 # LET'S START DIGGING
@@ -181,13 +211,12 @@ while queue:
             setTimeout(() => {
                 const pick = document.createElement("span");
                 pick.innerHTML = "⛏️";
-                pick.style.position = "absolute"
-                pick.style.left = `${Math.random() * 90}vh`
-                pick.style.top = ""
-                document.body.appendChild(newMouse);
-                newMouse.addEventListener("click", () => { document.location.href = "./03.html" })
-            }, 1000);
-        }, 2000)
+                pick.classList.add("pick")
+                pick.style.left = `${Math.random() * 90}vw`
+                document.body.appendChild(pick);
+                pick.addEventListener("click", () => { pick.remove() })
+            }, 10000);
+        }, 10000)
     </script>
 
 </body>
