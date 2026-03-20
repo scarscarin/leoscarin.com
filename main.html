@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Leo Scarin</title>
+    <style>
+        body {
+            background-color: #111;
+
+            margin: 0;
+            height: 100vh;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            overflow: hidden;
+        }
+
+        .container {
+            position: relative;
+        }
+
+        #bg {
+            display: block;
+        }
+
+        .hotspot {
+            position: absolute;
+            left: 700px;
+            top: 1600px;
+            width: 1000px;
+            height: 600px;
+            cursor: crosshair;
+        }
+
+        @keyframes rotate {
+            from{transform: rotate(0deg)}
+            to{transform: rotate(360deg)}
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img id="bg" src="assets/media/background.png">
+        <a class="hotspot" id="hotspot" href="#"></a>
+    </div>
+    <script>
+        hotspot = document.getElementById('hotspot')
+        hotspot.addEventListener('mouseover', () => {
+            document.body.style = 'animation: rotate 10000s linear infinite'
+        });
+    </script>
+    <script src="assets/scripts/title.js"></script>
+</body>
+
+</html>
