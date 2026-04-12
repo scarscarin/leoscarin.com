@@ -31,27 +31,29 @@
 
 <body>
     <img onclick="nextImage()" id="image" src="./imgs/LeoScarin_studio.png">
-    <!-- <a id="download" download><button onclick="downloadImage()">Download</button></a> -->
 
     <script>
-        const imgList = ["imgs/LeoScarin_studio.png", "imgs/LeoScarin_TouchGrass.png", "imgs/LeoScarin_CAOC.jpg", "imgs/LeoScarin_Fragments.jpg"]
-        const image = document.getElementById('image')
-        const download = document.getElementById('download')
+        const imgList = [
+            "./imgs/LeoScarin_studio.png",
+            "./imgs/LeoScarin_TouchGrass.png",
+            "./imgs/LeoScarin_CAOC.jpg",
+            "./imgs/LeoScarin_Fragments.jpg"
+        ];
 
+        const image = document.getElementById('image');
         let counter = 0;
 
-        function nextImage() {
-            if (counter < imgList.length - 1) {
-                counter++
-            } else {
-                counter = 0;
-            }
-            image.src = imgList[counter];
-        }
+        const preloadedImages = [];
 
-        function downloadImage() {
-            download.href = imgList[counter];
-            download.click();
+        imgList.forEach(src => {
+            const img = new Image();
+            img.src = src;
+            preloadedImages.push(img);
+        });
+
+        function nextImage() {
+            counter = (counter + 1) % imgList.length;
+            image.src = imgList[counter];
         }
     </script>
 </body>
