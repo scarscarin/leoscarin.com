@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📸</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: black;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            border: 2px solid white;
+            max-width: 90vw;
+            max-height: 90vh;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <img onclick="nextImage()" id="image" src="./imgs/LeoScarin_studio.png">
+    <!-- <a id="download" download><button onclick="downloadImage()">Download</button></a> -->
+
+    <script>
+        const imgList = ["./imgs/LeoScarin_studio.png", "./imgs/LeoScarin_TouchGrass.png", "./imgs/LeoScarin_CAOC.jpg", "./imgs/LeoScarin_Fragments.jpg"]
+        const image = document.getElementById('image')
+        const download = document.getElementById('download')
+
+        let counter = 0;
+
+        function nextImage() {
+            if (counter < imgList.length - 1) {
+                counter++
+            } else {
+                counter = 0;
+            }
+            image.src = imgList[counter];
+        }
+
+        function downloadImage() {
+            download.href = imgList[counter];
+            download.click();
+        }
+    </script>
+</body>
+
+</html>
