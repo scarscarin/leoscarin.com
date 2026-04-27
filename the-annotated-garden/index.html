@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>The Annotated Garden</title>
+
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 2em auto;
+			padding: 0 1em;
+			max-width: 900px;
+			font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+			line-height: 1.5;
+			color: rgb(55, 53, 47);
+		}
+
+		h1,
+		h2,
+		h3 {
+			line-height: 1.2;
+			margin-bottom: 0.3em;
+		}
+
+		h1 {
+			font-size: 2.2rem;
+		}
+
+		h2 {
+			font-size: 1.5rem;
+		}
+
+		h3 {
+			font-size: 1.25rem;
+			margin-top: 1.5em;
+		}
+
+		p {
+			margin: 0.5em 0;
+		}
+
+		a {
+			color: inherit;
+			text-decoration: underline;
+		}
+
+		img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+		}
+
+		figure {
+			margin: 1.25em 0;
+		}
+
+		figcaption {
+			margin-top: 0.5em;
+			font-size: 0.85em;
+			color: #777;
+		}
+
+		.image {
+			text-align: center;
+		}
+
+		.columns {
+			display: flex;
+			gap: 46px;
+			align-items: flex-start;
+			margin: 1.5em 0;
+		}
+
+		.column {
+			min-width: 0;
+		}
+
+		.half {
+			width: 50%;
+		}
+
+		.wide {
+			width: 62.5%;
+		}
+
+		.narrow {
+			width: 37.5%;
+		}
+
+		.left-scale {
+			width: 56.25%;
+		}
+
+		.right-scale {
+			width: 43.75%;
+		}
+
+		.video {
+			position: relative;
+			width: 100%;
+			padding-bottom: 56.25%;
+			height: 0;
+			overflow: hidden;
+		}
+
+		.video iframe {
+			position: absolute;
+			inset: 0;
+			width: 100%;
+			height: 100%;
+			border: 0;
+		}
+
+		@media (max-width: 750px) {
+			.columns {
+				flex-direction: column;
+				gap: 1em;
+			}
+
+			.column,
+			.half,
+			.wide,
+			.narrow,
+			.left-scale,
+			.right-scale {
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<article>
+		<header>
+			<h1>The Annotated Garden</h1>
+			<h2>Workshop w/ Renée Turner @ SNV, Rotterdam</h2>
+			<h2>What does a city garden tell us about Realities in Transition?</h2>
+		</header>
+
+		<figure class="image">
+			<img src="The%20Annotated%20Garden/Untitled.png" alt="" />
+		</figure>
+
+		<section class="columns">
+			<div class="column half">
+				<p>
+					Walking the meticulously organized plot grid of SNV, city garden in Rotterdam West,
+					it shows immediately its accurate distribution, proof of a collective coexistence.
+					SNV exists as a community of multiple and diverse cultures of gardeners meeting in
+					a wetland squeezed between the Blijdorp Zoo and the Rotterdam-Delft highway.
+					Founded in 1938, over its lifetime the city garden underwent a few conflicts with
+					the Rotterdam municipality threatening its existence; it has always been readily
+					protected by the same collectively organized gardeners.
+				</p>
+
+				<h3>Hacking tiny ecosystems</h3>
+
+				<p>
+					The discipline of gardening, in its playful form of “hacking” tiny ecosystems,
+					allows the gardener to participate in and intervene within the natural cycles of
+					plants, insects, moss, fungi, flowers, fruits, vegetables, worms, weather conditions
+					and their entangled intrications. Gardening, in its playful, human, immediate scale,
+					teaches us something about wider, slower, inaccessible ecosystems: that they exist
+					through the ties and interdependencies of their many single elements.
+				</p>
+			</div>
+
+			<div class="column half">
+				<figure>
+					<div class="video">
+						<iframe src="https://www.youtube.com/embed/nj0TfMxD6KE" title="A garden walk across scales"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							allowfullscreen>
+						</iframe>
+					</div>
+					<figcaption>
+						A garden walk across scales: ground-level footage juxtaposed with a satellite view.
+					</figcaption>
+				</figure>
+			</div>
+		</section>
+
+		<h3>Gardening as playful tinkering</h3>
+
+		<p>
+			As an amateur technologist—meaning I lack a certified education in computer science,
+			yet I practice it daily as a hobby—I consider the pedagogy of technologies to be a
+			playground that allows playful understandings of otherwise complex and inaccessible
+			systems. What drives my discipline is not only accessibility, in the form of FL/OSS
+			and low-tech communities, but safety to experiment and no-endpoint approaches.
+		</p>
+
+		<p>
+			Playing around with a cheap ultrasonic Arduino sensor in the attempt to build a lo-fi
+			self-driving toy car, with no real applied purpose, teaches me something about
+			autonomous systems’ ways of sensing. I do not cause damage to anyone if my car does
+			not pass the Trolley dilemma. This safe-to-play approach also exists in the
+			garden/forest analogy. When we garden, we participate and intervene within the same
+			life/death cycles of nature that are found in a hostile forest, or an inhospitable
+			ocean floor, yet our gardens do not pose similar threats to our life.
+		</p>
+
+		<h3>Literacies and imaginaries</h3>
+
+		<section class="columns">
+			<div class="column wide">
+				<p>
+					Low-tech and gardening disciplines are both DIY/hobbyist portals to wider
+					understandings of complex systems. There are already numerous analogies between
+					nature and digital technology, including literary terms borrowed from one another
+					such as <em>web</em>, <em>cloud</em>, <em>bug</em>, <em>virus</em>, and <em>tree</em>.
+					These literacies simplify and often displace the popular perception of how complex
+					systems work. Yet borrowing terms from floral ecologies allows for something that
+					is by nature the most playful, safe, and purposeless practice: <strong>imagining</strong>.
+				</p>
+
+				<h3>Re-ecologizing Techs</h3>
+
+				<p>
+					When we imagine data collection in AI as a process of “composting”
+					(<a href="https://gardenreadings.net/florian">gardenreadings.net/florian</a>),
+					we take an imaginary leap into how the ecological consequences of composting
+					transpose to the ecosystem of an AI dataset.
+				</p>
+
+				<p>
+					We fidget around with meanings such as <em>shit</em>, <em>feces</em>,
+					<em>waste</em>, <em>scrap</em>, but also <em>energy</em>, <em>matter</em>,
+					<em>feed</em>, and <em>fertilize</em>. This imaginary game allows us to intervene
+					in the rooted literacies of AI, and to rethink and re-ecologize their systems.
+					The urgent question is: what metaphors and parables can we use to re-imagine
+					alternative ecologies of technological systems? To answer this, we need to first
+					question what alternative ecologies we want, need, or care about.
+				</p>
+			</div>
+
+			<div class="column narrow">
+				<figure class="image">
+					<img src="The%20Annotated%20Garden/Untitled%201.png" alt="" />
+					<figcaption>Plot number 404 in SNV city garden. Owner not found.</figcaption>
+				</figure>
+			</div>
+		</section>
+
+		<h3>Ecologies of Care</h3>
+
+		<p>
+			Care is an inherent process in disciplines of gardening. It is what determines the
+			life or death of delicate strawberry plants that need timely water and good exposure
+			to sunlight. Care, here, is defined in contrast with indifference or exploitation.
+			Care is to affect and maintain with concern and cooperation, rather than
+			disinvolvement; to not retreat, flee, or withdraw from a system, but rather to stick
+			in, remain, and grow-with.
+		</p>
+
+		<p>
+			When thinking of ecologies of care in gardening, we think of direct acts like watering
+			our mimosas, greenhousing our lettuces, trimming the bush, moderating invasive plants,
+			and feeding the soil. When we transpose that to digital technologies, let us ask:
+			how would watering our software look? How do we greenhouse our digital lettuces?
+			Trim our big files? Moderate invasive cookies? Feed the soil of our pixels?
+		</p>
+
+		<h3>Scales</h3>
+
+		<section class="columns">
+			<div class="column left-scale">
+				<p>
+					Something I often recur to, when thinking of interdisciplinary analogies, is the
+					concept of scale. Not only in its spatial undertone, but as a dimensional measure
+					of things: size, time, and diverse ranges of the two.
+				</p>
+
+				<p>
+					When we look at the SNV garden from an online satellite map, we appreciate it
+					differently. We see its real size and get a glimpse of the bisons in the zoo next
+					door, and the cars on the highway. The different scale in which we see it triggers
+					a sensation of awe, because it is not a measure directly accessible to our eyes.
+					A similar sense of awe happens when we look at microscopic images of bacteria
+					living on the tip of a leaf, or timelapse videos of growing trees and rotting fruits.
+					More-than-human scales of seeing.
+				</p>
+
+				<figure>
+					<div class="video">
+						<iframe src="https://www.youtube.com/embed/p3kfJzwXYUw" title="Bison seen from a satellite"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							allowfullscreen>
+						</iframe>
+					</div>
+					<figcaption>A bison.</figcaption>
+				</figure>
+
+				<figure class="image">
+					<img src="The%20Annotated%20Garden/Untitled%202.png" alt="" />
+					<figcaption>Missing bison as (not) seen from a young zoo visitor.</figcaption>
+				</figure>
+			</div>
+
+			<div class="column right-scale">
+				<figure class="image">
+					<img src="The%20Annotated%20Garden/Untitled%203.png" alt="" />
+					<figcaption>A bison next door as seen from a Google Maps satellite image-to-3D estimation.
+					</figcaption>
+				</figure>
+
+				<figure class="image">
+					<img src="The%20Annotated%20Garden/Untitled%204.png" alt="" />
+					<figcaption>Panoramic capture of the bison area at the zoo.</figcaption>
+				</figure>
+			</div>
+		</section>
+		<h3>Conclusion</h3>
+		<section class="columns">
+
+			<div class="column left-scale">
+
+
+				<p>
+					This replacement of scales often assists us in understanding ecosystems we would
+					not resonate with otherwise; things we would and could not normally care about.
+					For this reason, scale should be included in the problem of transposing ecologies
+					of care to technological systems. Not only should we ask what metaphors and
+					analogies we need, but also: what new scales of perception can ecology bring into
+					the realm of the digital?
+				</p>
+
+				<p>
+					Realities in Transition is a concept that uses two extremely ecological terms:
+					<strong>Realities</strong>, a plural word denoting multiplicities of being, and
+					<strong>Transition</strong>, implying impermanence, in the same way that the life
+					of an oak tree implies its own death, regardless of how eternal the tree’s cycle
+					can seem in human years.
+				</p>
+
+				<figure class="image">
+					<img src="The%20Annotated%20Garden/Untitled%205.png" alt="" />
+					<figcaption>
+						What I believed to be a misspelled tribute to Heraclitus’ concept of eternal
+						states of transition. I searched it up and it actually seems to be a private school.
+					</figcaption>
+				</figure>
+
+				<p>
+					My father, a former software developer, started gardening as a lockdown hobby.
+					In 2020 he began farming 1kg of redworms. Now, our backyard in Campodarsego,
+					Italy, welcomes 50kg in batches of diverse shapes and materials. He tells me
+					with excitement how inspiring the societal organizations of redworms are: they
+					are androgynous, meaning they can mate with any other redworm; they multiply
+					fast but never saturate a batch.
+				</p>
+
+				<p>
+					While my father jokes that redworms save him waste taxes, because they eat
+					biodegradable waste, even pizza cartons, he also shows how this practice gave
+					him a deeper understanding of recycling processes. Then he shows me the YouTube
+					account and the subreddit where he got all the technical knowledge from.
+				</p>
+			</div>
+
+			<div class="column right-scale">
+				<figure class="image">
+					<img src="The%20Annotated%20Garden/Untitled%206.png" alt="" />
+					<figcaption>A creative redworm farm in my dad’s garden.</figcaption>
+				</figure>
+
+				<p>
+					In a small scale, as big as a house backyard, a DIY gardener discovers the hidden
+					ecosystems of life generated from waste. This process of discovery does not remove
+					itself from care, affection and maintenance. It is reinforced by them. We can learn
+					Realities in Transition with the same passionate hobbyist pedagogy: a pedagogy that
+					is interdisciplinary, metaphorical, scaled out, and guided by ecological care.
+				</p>
+			</div>
+		</section>
+		<figure>
+			<div class="video">
+				<iframe src="https://www.youtube.com/embed/nj0TfMxD6KE" title="A walk in the garden"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen>
+				</iframe>
+			</div>
+			<figcaption>
+				A walk in the garden seen from my phone camera juxtaposed with a virtual walk in the garden as seen from
+				a satellite.
+			</figcaption>
+		</figure>
+	</article>
+
+</body>
+
+</html>
