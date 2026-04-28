@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Hershey';
+    src: url("../../assets/fonts/Hershey-Noailles-Times-Triplex-Regular.otf");
+}
+
+@font-face {
+  font-family: 'Syne Tactile';
+  src: url('../../assets/fonts/SyneTactile-Regular.woff2');
+}
+
+.popup-body h1 {
+    font-family: 'Syne', serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 0 0.8rem;
+    line-height: 1.2;
+}
+
+.popup-body h2 {
+    font-family: 'Hershey', serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1.2rem 0 0.4rem;
+}
+
+.popup-body h3 {
+    font-family: 'Hershey', serif;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem 0 0.3rem;
+}
+
+.popup-body p {
+    font-family: 'Hershey', sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.popup-body ul,
+.popup-body ol {
+    padding-left: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.popup-body li {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.popup-body a {
+    color: #118a7e;
+    text-decoration: underline;
+}
+
+.popup-body strong {
+    font-weight: bold;
+}
+
+.popup-body em {
+    font-style: italic;
+}
+
+.popup-body img {
+    width: 100%;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.popup-body video {
+    width: 100%;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.popup-body hr {
+    border-top: 1px solid black;
+    margin: 1.5rem 0;
+}
+
+.popup-body blockquote {
+    border-left: 2px solid #3baea0;
+    padding-left: 0.8rem;
+    margin: 1rem 0;
+    color: #555;
+    font-style: italic;
+}
+
+.popup-body figure>img {
+    width: 100%;
+    display: block;
+    margin-bottom: 0.5rem !important
+}
+
+.popup-body figcaption{
+    font-size: .8rem
+}

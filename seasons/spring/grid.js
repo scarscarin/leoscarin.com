@@ -50,7 +50,6 @@ function random(max) {
   return Math.floor(Math.random() * max) + 1;
 }
 
-// --- POPUP ---
 document.getElementById('popup-close').addEventListener('click', closePopup);
 
 function closePopup() {
@@ -67,7 +66,9 @@ function openPopup(item) {
       return r.text();
     })
     .then(md => {
-      popupInner.innerHTML = `<div class="popup-body">${marked.parse(md)}</div>`;
+      const base = item.content.substring(0, item.content.lastIndexOf('/') + 1);
+      const resolved = md.replace(/\]\((?!http)\.\.?\//g, `](${base}`);
+      popupInner.innerHTML = `<div class="popup-body">${marked.parse(resolved)}</div>`;
     })
     .catch(err => {
       popupInner.innerHTML = `<p style="color:#999;font-size:0.85rem;padding:1rem">Could not load content (${err.message}).</p>`;
@@ -124,6 +125,7 @@ const sortedAreas = Object.entries(counts).sort((a, b) => b[1] - a[1]);
 
 fetch('data.json')
   .then(r => r.json())
+
   .then(data => {
     const cornerLabels = { main: 'LEO SCARIN' };
 
@@ -153,6 +155,7 @@ fetch('data.json')
 
       if (idx < projects.length) {
         const project = projects[idx];
+        el.classList.add('rect--project');
         if (project.cover) el.style.setProperty('--cover', `url(${project.cover})`);
         const label = document.createElement('span');
         label.classList.add('rect-label');
