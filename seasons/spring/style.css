@@ -1,39 +1,191 @@
-html,
-body {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background-color: aliceblue;
+@font-face {
+    font-family: 'Syne';
+    src: url('../../assets/fonts/SyneMono-Regular.woff2');
+}
+
+html, body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: aliceblue;
+  font-family: 'Syne';
 }
 
 #stage {
-    padding: 0 1em;
-    width: 100vw;
-    height: 100dvh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
 #grid {
-    height: 100vh;
-    width: 100vw;
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16, 1fr);
-    gap: 8px;
+  flex: 1;
+  min-width: 0;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  gap: 8px;
 }
 
 .rect {
-    border: 2px solid #222;
-    background: linear-gradient(90deg, cornsilk, lightcoral);
-    transition: transform .15s ease, border-radius 5s linear, transform .2s;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.15s ease, border-radius 5s linear;
 }
 
 .rect:hover {
-    cursor: pointer;
-    transform: rotateZ(90deg) scale(1, 1.5);
+  transform: scale(1.06);
+  z-index: 10;
+}
+
+.rect-label {
+  font-size: clamp(1rem, 1vw, 0.85rem);
+  color: black;
+  text-align: center;
+  pointer-events: none;
+  z-index: 2;
+  padding: 2px 4px;
+}
+
+.rect--main .rect-label {
+  font-size: clamp(2rem, 1.5vw, 1.4rem);
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.rect[style*="--cover"]::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: var(--cover);
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  filter: saturate(0.4) sepia(0.6) hue-rotate(100deg) brightness(0.85);
+}
+
+.rect[style*="--cover"]:hover::before {
+  opacity: 1;
+}
+
+/* --- POPUP --- */
+#popup {
+  width: 0;
+  height: 100vh;
+  overflow: hidden;
+  background: aliceblue;
+  box-sizing: border-box;
+  transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#stage.popup-open #popup {
+  width: 50vw;
+  border-left: 2px solid black;
+}
+
+#popup-close {
+  align-self: flex-end;
+  background: aliceblue;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 4px 10px;
+  margin: 1rem 1rem 0;
+  font-family: inherit;
+  flex-shrink: 0;
+}
+
+#popup-inner {
+  padding: 1rem 1.5rem 2rem;
+  overflow-y: auto;
+  flex: 1;
+}
+
+/* markdown body */
+.popup-body h1 {
+  font-family: 'Georgia', serif;
+  font-size: 1.6rem;
+  font-weight: normal;
+  margin: 0 0 0.8rem;
+  line-height: 1.2;
+}
+
+.popup-body h2 {
+  font-family: 'Georgia', serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin: 1.2rem 0 0.4rem;
+}
+
+.popup-body h3 {
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 1rem 0 0.3rem;
+}
+
+.popup-body p {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.popup-body ul, .popup-body ol {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.popup-body li {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.popup-body a {
+  color: #118a7e;
+  text-decoration: underline;
+}
+
+.popup-body strong {
+  font-weight: bold;
+}
+
+.popup-body em {
+  font-style: italic;
+}
+
+.popup-body img {
+  width: 100%;
+  display: block;
+  margin: 1rem 0;
+  border: 1px solid #ccc;
+}
+
+.popup-body hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 1.5rem 0;
+}
+
+.popup-body blockquote {
+  border-left: 2px solid #3baea0;
+  padding-left: 0.8rem;
+  margin: 1rem 0;
+  color: #555;
+  font-style: italic;
 }

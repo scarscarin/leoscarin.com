@@ -1,0 +1,32 @@
+{
+  "corners": {
+    "main":    { "type": "corner", "content": "content/main.md" },
+    "about":   { "type": "corner", "content": "content/about.md" },
+    "source":  { "type": "corner", "content": "content/source.md" },
+    "contact": { "type": "corner", "content": "content/contact.md" }
+  },
+  "projects": [
+    {
+      "type": "project",
+      "title": "Dangerous Stochastic Parrot",
+      "year": 2025,
+      "cover": "assets/media/parrot.jpg",
+      "content": "content/dangerous-stochastic-parrot.md"
+    },
+    {
+      "type": "project",
+      "title": "Future Dance of Nostalgia",
+      "year": 2022,
+      "cover": "assets/media/future-dance.jpg",
+      "content": "content/future-dance-of-nostalgia.md"
+    }
+  ],
+  "news": [
+    {
+      "type": "news",
+      "date": "2024-06",
+      "cover": "assets/media/news-cover.jpg",
+      "content": "content/graduation-show-2024.md"
+    }
+  ]
+}

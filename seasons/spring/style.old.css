@@ -1,0 +1,36 @@
+html,
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+
+#stage {
+    padding: 0 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    gap: 8px;
+}
+
+.rect {
+    border: 2px solid #222;
+    transition: transform .15s ease, border-radius 5s linear, transform .2s;
+}
+
+.rect:hover {
+    cursor: pointer;
+    transform: rotateZ(5deg) scale(1.1, 1.1);
+}

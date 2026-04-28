@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leo Scarin</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leo Scarin</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
-
 <body>
-    <div id="stage">
-        <div id="grid">
-            <script src="grid.js"></script>
-        </div>
+  <div id="stage">
+    <div id="grid"></div>
+    <div id="popup">
+      <button id="popup-close">✕</button>
+      <div id="popup-inner"></div>
     </div>
-
+  </div>
+  <script src="grid.js"></script>
 </body>
-
 </html>
