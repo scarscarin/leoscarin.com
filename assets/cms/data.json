@@ -1,0 +1,107 @@
+{
+  "main": {
+    "type": "info",
+    "content": "assets/cms/info/main.md"
+  },
+  "projects": [
+    {
+      "type": "project",
+      "title": "Mouchette",
+      "year": 2026,
+      "cover": "assets/cms/projects/media/mouchette.png",
+      "content": "assets/cms/projects/mouchette.md"
+    },
+    {
+      "type": "project",
+      "title": "Spill the GPT",
+      "year": 2026,
+      "cover": "assets/cms/projects/media/spill-the-gpt.png",
+      "content": "assets/cms/projects/spill-the-gpt.md"
+    },
+    {
+      "type": "project",
+      "title": "Dangerous Stochastic Parrot",
+      "year": 2025,
+      "cover": "assets/cms/projects/media/dangerous-stochastic-parrot.png",
+      "content": "assets/cms/projects/dangerous-stochastic-parrot.md"
+    },
+    {
+      "type": "project",
+      "title": "Fifty Thousand Names",
+      "year": 2025,
+      "cover": "assets/cms/projects/media/fifty-thousand-names.png",
+      "content": "assets/cms/projects/fifty-thousand-names.md"
+    },
+    {
+      "type": "project",
+      "title": "small ai",
+      "year": 2025,
+      "cover": "assets/cms/projects/media/make-your-own-small-ai.png",
+      "content": "assets/cms/projects/make-your-own-small-ai.md"
+    },
+    {
+      "type": "project",
+      "title": "OTHERWORLDS",
+      "year": 2025,
+      "cover": "assets/cms/projects/media/otherworlds.png",
+      "content": "assets/cms/projects/otherworlds.md"
+    },
+    {
+      "type": "project",
+      "title": "Algolingo",
+      "year": 2024,
+      "cover": "assets/cms/projects/media/algolingo.png",
+      "content": "assets/cms/projects/algolingo.md"
+    },
+    {
+      "type": "project",
+      "title": "Ways of []",
+      "year": 2024,
+      "cover": "assets/cms/projects/media/ways-of-ing.png",
+      "content": "assets/cms/projects/ways-of-ing.md"
+    },
+    {
+      "type": "project",
+      "title": "Collective Algorithm of Care",
+      "year": 2023,
+      "cover": "assets/cms/projects/media/collective-algorithm-of-care.png",
+      "content": "assets/cms/projects/collective-algorithm-of-care.md"
+    },
+    {
+      "type": "project",
+      "title": "Running Backwards",
+      "year": 2023,
+      "cover": "assets/cms/projects/media/running-backwards.png",
+      "content": "assets/cms/projects/running-backwards.md"
+    },
+    {
+      "type": "project",
+      "title": "Avalonia",
+      "year": 2023,
+      "cover": "assets/cms/projects/media/avalonia.png",
+      "content": "assets/cms/projects/avalonia.md"
+    },
+    {
+      "type": "project",
+      "title": "Volumetric Interviews",
+      "year": 2023,
+      "cover": "assets/cms/projects/media/volumetric-interviews.png",
+      "content": "assets/cms/projects/volumetric-interviews.md"
+    },
+    {
+      "type": "project",
+      "title": "Future Dance of Nostalgia",
+      "year": 2022,
+      "cover": "assets/cms/projects/media/future-dance-of-nostalgia.jpg",
+      "content": "assets/cms/projects/future-dance-of-nostalgia.md"
+    },
+    {
+      "type": "project",
+      "title": "La Symphonie de l'Environnement",
+      "year": 2022,
+      "cover": "assets/cms/projects/media/la-symphonie-de-l-environnement.png",
+      "content": "assets/cms/projects/la-symphonie-de-l-environnement.md"
+    }
+  ],
+  "news": []
+}
