@@ -5,7 +5,7 @@
 **Context**: Le Broc Festival, Nice <br>
 **With**: Janine Huizenga, Andrew Bullen, Romina Romay, Helvia Briggen
 
-![image](./assets/cms/projects/media/la-symphonie-de-l-environnement.png)
+![image](./media/la-symphonie-de-l-environnement.png)
 
 Natural and technological worlds have been existing together for centuries. Only recently, however, we read an imbalance of powers between the two, leading to social crises and environmental catastrophes. Analysing and simulating natural, as well as mechanical, patterns in the French village of Le Broc, La Symphonie de l'Environnement speculates on the relationship between technology and nature of the future.
 
