@@ -2,10 +2,11 @@
 
 A custom made conversational bot as an extension of 30-year-old website mouchette.org
 
-**Link**: [mou.scar.page](https://mou.scar.page)<br>
 **When**: 2025 - ongoing <br>
-**Funded by**: [Vleeshal](https://www.vleeshal.nl), Middelburg <br>
-**Role**: Developer / Artist
+**With**: [Martine Neddam](https://neddam.info)<br>
+**Role**: Developer / Artist<br>
+**Context**: [Vleeshal](https://www.vleeshal.nl), Middelburg <br>
+**Link**: [mou.scar.page](https://mou.scar.page)
 
 ![image](./media/mouchette-01.png)
 

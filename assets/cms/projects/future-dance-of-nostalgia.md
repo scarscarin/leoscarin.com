@@ -2,9 +2,10 @@
 
 A videogame for Kexin Hao's performance on the choreographies of pre-industrial labour songs
 
+**When**: 2022<br>
+**With**: [Kexin Hao](https://howkexin.com)<br>
+**Role**: Creative Technologist<br>
 **Link**: [Kexin Hao: Future Dance of Nostalgia](https://howkexin.com/project/future-dance-of-nostalgia_new.html)
-**Role**: Creative Technologist
-**When**: 2022
 
 ![image](./media/future-dance-of-nostalgia-01.jpg)
 

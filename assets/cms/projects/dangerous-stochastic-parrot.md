@@ -3,7 +3,7 @@
 A self-made gossip model running off grid
 
 **When**: 2025 <br>
-**Presented at**: [AIxDesign Festival: On Slow AI](https://aixdesign.co/projects/aixdesign-festival-2025), Amsterdam <br>
+**Context**: [AIxDesign Festival: On Slow AI](https://aixdesign.co/projects/aixdesign-festival-2025), Amsterdam <br>
 **Type**: interactive installation
 
 ![image](./media/dangerous-stochastic-parrot.png)

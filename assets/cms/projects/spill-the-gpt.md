@@ -2,10 +2,10 @@
 
 A creative exercise in collecting and training a small gossip's language model
 
-**Link**: [aiaiai.art/spill-the-gpt](https://aiaiai.art/spill-the-gpt)<br>
 **When**: 2025 <br>
-**Funded by**: [The Hmm](https://www.thehmm.nl) <br>
 **Type**: Publication
+**Context**: [The Hmm](https://www.thehmm.nl) <br>
+**Link**: [aiaiai.art/spill-the-gpt](https://aiaiai.art/spill-the-gpt)<br>
 
 ![book pictures](./media/spill-the-gpt-01.png)
 ---

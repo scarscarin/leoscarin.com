@@ -2,9 +2,10 @@
 
 A workshop on building and training small language models.
 
-**Link**: [Workshop: Small AI](https://nadiapiet.notion.site/WORKSHOP-Make-your-own-Small-AI-w-Leo-Scarin-Nadia-Nadesan-21937d0038338018b9ace30493c8d1dc#21937d00383380d5b6b0c12894e6cd2a) <br>
-**Presented at**: [AIxDesign Festival: On Slow AI](https://aixdesign.co/projects/aixdesign-festival-2025), Amsterdam <br>
-**With**: [Nadia Nadesan](https://docs.google.com/spreadsheets/d/10UxP710HVIG625ERNVqi8VUDDv1VBZ7NcVvSOd3JbS4/)
+**When**: 2025<br>
+**Context**: [AIxDesign Festival: On Slow AI](https://aixdesign.co/projects/aixdesign-festival-2025), Amsterdam <br>
+**With**: [Nadia Nadesan](https://docs.google.com/spreadsheets/d/10UxP710HVIG625ERNVqi8VUDDv1VBZ7NcVvSOd3JbS4/)<br>
+**Link**: [Workshop: Small AI](https://nadiapiet.notion.site/WORKSHOP-Make-your-own-Small-AI-w-Leo-Scarin-Nadia-Nadesan-21937d0038338018b9ace30493c8d1dc#21937d00383380d5b6b0c12894e6cd2a)
 
 ![cover](./media/make-your-own-small-ai-01.png)
 

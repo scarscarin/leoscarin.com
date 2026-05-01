@@ -2,11 +2,11 @@
 
 An interactive documentary on non-newtonian-fluid
 
-**Link**: [KABK Graduation Catalogue 2022](https://graduation.kabk.nl/2022/camila-chebez)<br>
-**Role**: Creative Technologist <br>
 **When**: 2022 <br>
+**Role**: Creative Technologist <br>
 **With**: Cami Chebez <br>
 **Context**: KABK Graduation 2022 <br>
+**Link**: [KABK Graduation Catalogue 2022](https://graduation.kabk.nl/2022/camila-chebez)
 
 ![image](./media/avalonia-01.png)
 

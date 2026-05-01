@@ -2,10 +2,10 @@
 
 An immersive installation looping visitors' presence through thermal sensors and effectors
 
-**Link**: [Realities in Transition](https://www.realities-in-transition.eu/project/leo-scarin-marlot-meyer-the-collective-algorithm-of-care/) <br>
 **When**: 2023 <br>
+**With**: [Marlot Meyer](marlotmeyer.com)<br>
 **Context**: RIT Residency at V2_Lab <br>
-**With**: [Marlot Meyer](marlotmeyer.com)
+**Link**: [Realities in Transition](https://www.realities-in-transition.eu/project/leo-scarin-marlot-meyer-the-collective-algorithm-of-care/)
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/834714146?h=e1d7396d59" width="100%" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
 

@@ -2,9 +2,10 @@
 
 An immersive experience for 6 people, recontextualising traditional pagan Ukrainian rituals through contemporary technologies
 
-**Link**: [sophiabulgakova.com/otherworlds](https://sophiabulgakova.com/otherworlds/) <br>
+**When**: 2022-2025<br>
 **With**: Sophia Bulgakova <br>
 **Role**: Creative Developer <br>
+**Link**: [sophiabulgakova.com/otherworlds](https://sophiabulgakova.com/otherworlds/)
 
 
 ![image](./media/otherworlds-01.png)

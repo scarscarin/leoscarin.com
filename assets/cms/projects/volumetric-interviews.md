@@ -2,10 +2,10 @@
 
 An experimental documentary introducing studios that explore creative technology as a means to build communities
 
-**Link**: [RGBdog presents: Volumetric Interviews](https://rgbdog.studio/projects/volumetric-interviews/) <br>
-**With**: [RGBdog](https://rgbdog.studio) <br>
 **When**: 2021-2024 <br>
+**With**: [RGBdog](https://rgbdog.studio) <br>
 **Role**: VFX Developer <br>
+**Link**: [RGBdog presents: Volumetric Interviews](https://rgbdog.studio/projects/volumetric-interviews/) <br>
 
 ![image](./media/volumetric-interviews-01.png)
 

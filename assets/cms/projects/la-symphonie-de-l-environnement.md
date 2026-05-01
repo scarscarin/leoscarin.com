@@ -1,7 +1,8 @@
 # La Symphonie de l'Environnement
 
-**Context**: Le Broc Festival, Nice <br>
 **When**: 2022 <br>
+**Type**: Audiovisual performance<br>
+**Context**: Le Broc Festival, Nice <br>
 **With**: Janine Huizenga, Andrew Bullen, Romina Romay, Helvia Briggen
 
 ![image](./media/la-symphonie-de-l-environnement.png)

@@ -1,9 +1,9 @@
 # Fifty Thousand Names
 A hardcode message of grief for each martyr killed by Israeli forces since October 2023.
 
-**Link**: [fiftythousandnames.org](https://fiftythousandnames.org)<br>
 **When**: 2025<br>
-**Type**: Website
+**Type**: Website<br>
+**Link**: [fiftythousandnames.org](https://fiftythousandnames.org)
 
 <video src="./projects/media/ftn-video.mp4" autoplay></video>
 **Fifty Thousand Names** is a hard-coded message of grief for each of the (now more than) fifty thousand names of Palestinian martyrs who won't witness Gaza's liberation. It uses a live dataset from [Tech for Palestine](data.techforpalestine.org), an organisation of developers supporting Palestinian resistance. 
