@@ -48,6 +48,13 @@
     },
     {
       "type": "project",
+      "title": "Ways of []",
+      "year": 20245,
+      "cover": "assets/cms/projects/media/ways-of-ing.png",
+      "content": "assets/cms/projects/ways-of-ing.md"
+    },
+    {
+      "type": "project",
       "title": "Algolingo",
       "year": 2024,
       "cover": "assets/cms/projects/media/algolingo.png",
@@ -55,10 +62,10 @@
     },
     {
       "type": "project",
-      "title": "Ways of []",
+      "title": "Attention as Material",
       "year": 2024,
-      "cover": "assets/cms/projects/media/ways-of-ing.png",
-      "content": "assets/cms/projects/ways-of-ing.md"
+      "cover": "assets/cms/projects/media/..",
+      "content": "assets/cms/projects/attention-as-material.md"
     },
     {
       "type": "project",

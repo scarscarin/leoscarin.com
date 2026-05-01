@@ -5,7 +5,7 @@ A hardcode message of grief for each martyr killed by Israeli forces since Octob
 **Type**: Website<br>
 **Link**: [fiftythousandnames.org](https://fiftythousandnames.org)
 
-<video src="./projects/media/ftn-video.mp4" autoplay></video>
+<video src="./assets/cms/projects/media/ftn-video.mp4" autoplay></video>
 **Fifty Thousand Names** is a hard-coded message of grief for each of the (now more than) fifty thousand names of Palestinian martyrs who won't witness Gaza's liberation. It uses a live dataset from [Tech for Palestine](data.techforpalestine.org), an organisation of developers supporting Palestinian resistance. 
 
 Data visualization won't fix the ongoing genocide. But it can draw a starting point that moves people to action, boycott, and daily exercises of building a culture of human dignity. This webpage was made in the occasion of a  Code Against Genocide session in The Hague in March 2025. 
