@@ -5,7 +5,7 @@ A language game of algorithmic encryption and decryption
 **When**: 2024 <br>
 **Context**: [STRP Education](https://onderwijs.strp.nl/en/activities/algolingo)
 
-![image](./assets/cms/projects/media/algolingo.png)
+![image](./media/algolingo.png)
 
 AlgoLingo is a game that, inspired by AlgoSpeak, forms a new language system. A language built from code words, with ever-changing secret rules, meme-related puns, and a lot of human creativity: something an algorithm could never understand!
 
