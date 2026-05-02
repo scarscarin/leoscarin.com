@@ -8,7 +8,7 @@ An immersive experience for 6 people, recontextualising traditional pagan Ukrain
 **Link**: [sophiabulgakova.com/otherworlds](https://sophiabulgakova.com/otherworlds/)
 
 
-![image](./media/otherworlds-01.png)
+![image](./assets/cms/projects/media/otherworlds-01.png)
 
 **OTHERWORLDS** is a multidimensional participatory performance within virtual and physical realities created by Ukrainian media artist, immersive storyteller and director Sophia Bulgakova. It combines Sophia's artistic research on Ukrainian traditions, pagan rituals, and other surrounding magical practices with contemporary discourse on visual culture and technology. 
 

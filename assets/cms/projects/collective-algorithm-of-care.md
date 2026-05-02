@@ -13,7 +13,7 @@ An immersive installation looping visitors' presence through thermal sensors and
 
 Surveillance machines, such as thermal cameras, originate from military development for smart weaponry, law enforcement, or state border control. The classification models trained by these sensors are, by design, exposed to the violent biases of postcolonialism.
 
-![image](.media/collective-algorithm-of-care-01.png)
+![image](./assets/cms/projects/media/collective-algorithm-of-care-01.png)
 
 T.C.A.O.C. shifts this narrative and codes an algorithm using variables of radical care and collective participation. The visitors are invited to step into a system of thermal sensors and hand-crafted heaters. Here, they deposit their warm traces and participate in the collection of thermodynamic data, for the algorithm to re-cognize and train-with.
 How can ecological thinking reclaim computational spaces?

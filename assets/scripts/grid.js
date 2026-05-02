@@ -67,9 +67,7 @@ function openPopup(item) {
       return r.text();
     })
     .then(md => {
-      const base = item.content.substring(0, item.content.lastIndexOf('/') + 1);
-      const resolved = md.replace(/\]\((?!http)\.\.?\//g, `](${base}`);
-      popupInner.innerHTML = `<div class="popup-body">${marked.parse(resolved)}</div>`;
+      popupInner.innerHTML = `<div class="popup-body">${marked.parse(md)}</div>`;
     })
     .catch(err => {
       popupInner.innerHTML = `<p style="color:#999;font-size:0.85rem;padding:1rem">Damn it! I could not load content for this one: (${err.message}).</p>`;

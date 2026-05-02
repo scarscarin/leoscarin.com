@@ -8,7 +8,7 @@ An interactive documentary on non-newtonian-fluid
 **Context**: KABK Graduation 2022 <br>
 **Link**: [KABK Graduation Catalogue 2022](https://graduation.kabk.nl/2022/camila-chebez)
 
-![image](./media/avalonia-01.png)
+![image](./assets/cms/projects/media/avalonia-01.png)
 
 Along the mining region of the Ruhr in Germany, Camila Chebez encounters Avalonia: an abandoned sandstone quarry that has turned into a popular climbing crag. Sharing its name with a micro-drifting continent from the Palaeozoic era, this site beckons for a closer look at its porous textures, which archive a deep history of impacting surfaces:
 
