@@ -22,4 +22,4 @@ This work was developed with the collaborative effort of [RGBdog](https://rgbdog
 **Graphic Design**: Soyun Park <br>
 **Intern**: Niki Schijen
 
-![image](./assets/cms/projects/media/algolingo-01.jpg)
+![image](./media/algolingo-01.jpg)
