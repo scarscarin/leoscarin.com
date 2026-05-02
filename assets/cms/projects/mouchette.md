@@ -8,14 +8,14 @@ A custom made conversational bot as an extension of 30-year-old website mouchett
 **Context**: [Vleeshal](https://www.vleeshal.nl), Middelburg <br>
 **Link**: [mou.scar.page](https://mou.scar.page)
 
-![image](./assets/cms/projects/media/mouchette-01.png)
+![image](./media/mouchette-01.png)
 
 
 For Vleeshal's digital art program, artist [Martine Neddam](https://neddam.info) revisited her iconic 1990s net art project [mouchette.org](https://mouchette.org). This project by Martine Neddam is designed in collaboration with Leo Scarin and curated by Roeliena Aukema.
 
 First launched in the late 1990s, mouchette.org invited users into dark, poetic, and provocative exchanges with a virtual persona. This new project extends her presence into the present through a conversational language model that embodies her distinctive voice and aesthetics.
 
-![image](./assets/cms/projects/media/mouchette-02.png)
+![image](./media/mouchette-02.png)
 
 ## Mouchette
 Mouchette.org ([wikipedia entry](https://en.wikipedia.org/wiki/Mouchette.org)) was created in 1996 by Neddam and consists of an interactive website that follows the story of a nearly thirteen-year-old girl named Mouchette (little fly in French). Loosely following the narrative from the original film from 1967 by Robert Bresson, visitors can navigate through the website and interact with the persona of Mouchette. What looks like a website built by a young girl, slowly starts unfolding in darker themes surrounding death, murder and suicide. Within this non-linear storyline, messages and emails by real-life visitors are also included.
