@@ -8,21 +8,21 @@
       "type": "project",
       "title": "Mouchette",
       "year": 2026,
-      "cover": "assets/cms/projects/media/mouchette.png",
+      "cover": "./assets/cms/projects/media/mouchette.png",
       "content": "assets/cms/projects/mouchette.md"
     },
     {
       "type": "project",
       "title": "Spill the GPT",
       "year": 2026,
-      "cover": "assets/cms/projects/media/spill-the-gpt.png",
+      "cover": "./assets/cms/projects/media/spill-the-gpt.png",
       "content": "assets/cms/projects/spill-the-gpt.md"
     },
     {
       "type": "project",
       "title": "Dangerous Stochastic Parrot",
       "year": 2025,
-      "cover": "assets/cms/projects/media/dangerous-stochastic-parrot.png",
+      "cover": "./assets/cms/projects/media/dangerous-stochastic-parrot.png",
       "content": "assets/cms/projects/dangerous-stochastic-parrot.md"
     },
     {
