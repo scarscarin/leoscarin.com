@@ -7,7 +7,7 @@ An experimental documentary introducing studios that explore creative technology
 **Role**: VFX Developer <br>
 **Link**: [RGBdog presents: Volumetric Interviews](https://rgbdog.studio/projects/volumetric-interviews/) <br>
 
-![image](./media/volumetric-interviews-01.png)
+![image](./assets/cms/projects/media/volumetric-interviews-01.png)
 
 **RGBdog Presents: Volumetric Interviews** introduces creatives based in The Netherlands working at the intersection of music, visual arts and technology, who are focused on developing supportive communities all over the world. The series aims to raise awareness of the creative possibilities of technology and to invite audiences in joining the ongoing broader debate about its benefits and pitfalls.
 
