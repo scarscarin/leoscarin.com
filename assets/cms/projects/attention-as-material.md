@@ -12,8 +12,8 @@ Modern technology provides a radically new environment for humans' attention, al
 
 What is attention really? Everything we create starts with our attention; a conversation, an artwork or a simple meal. How do we define an immaterial phenomenon with infinitely material consequences? Can we see attention as a material? As a building block? Can we see it as something we artistically mold, manipulate, stretch and move?
 
-<video src="./assets/cms/projects/media/attention-as-material-03.mp4"></video>
+<video src="./assets/cms/projects/media/attention-as-material-03.mp4" controls></video>
 
-<video src="./assets/cms/projects/media/attention-as-material-01.mp4"></video>
+<video src="./assets/cms/projects/media/attention-as-material-01.mp4" controls></video>
 
-<video src="./assets/csm/projects/media/attention-as-material-02.mp4"></video>
+<video src="./assets/cms/projects/media/attention-as-material-02.mp4" controls></video>
