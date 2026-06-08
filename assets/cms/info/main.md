@@ -3,7 +3,7 @@
 **Email**: studio [at] leoscarin [dot] nl <br>
 **Handle**: [@scarscarin](https://instagram.com/scarscarin)
 
-![alt text](./media/leo.png)
+![alt text](./assets/cms/info/media/leo.png)
 
 **Leo Scarin** (he/him) is an artist and designer working with code.
 
