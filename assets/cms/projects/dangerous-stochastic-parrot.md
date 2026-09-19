@@ -19,7 +19,7 @@ Inspired by Bender and Gebru’s paper “On the Dangers of Stochastic Parrots,�
 This work was part of my research on Data Degrowth. The process can be found [here](https://scarscarin.notion.site/Tiny-Stochastic-Parrots-d334504ec16e445fb982d6880919db9b).
 
 <figure>
-<img src="projects/media/dangerous-stochastic-parrot-01.png">
+<img src="./assets/cms/projects/media/dangerous-stochastic-parrot-01.png">
 <figcaption>
 The parrot and I :)
 </figcaption>
