@@ -161,7 +161,10 @@ fetch('./assets/cms/data.json')
 
     grid.appendChild(main);
 
-    const projects = [...data.projects].sort((a, b) => b.year - a.year);
+    // projects + news together, newest first (year, then month if present)
+    const items = [...(data.projects || []), ...(data.news || [])].sort(
+      (a, b) => (b.year - a.year) || ((b.month || 0) - (a.month || 0))
+    );
     let idx = 0;
 
     sortedAreas.forEach(([areaName, cellCount]) => {
@@ -173,21 +176,21 @@ fetch('./assets/cms/data.json')
 
       const dim = areaDimensions[areaName];
 
-      if (idx < projects.length && dim.w >= 2 & dim.h >= 2) {
-        const project = projects[idx]
+      if (idx < items.length && dim.w >= 2 && dim.h >= 2) {
+        const item = items[idx];
         idx++;
 
-        rect.classList.add('rect--project');
+        rect.classList.add('rect--project', `rect--${item.type}`);
 
-        if (project.cover) {
-          rect.style.setProperty('--cover', `url(${project.cover})`);
+        if (item.cover) {
+          rect.style.setProperty('--cover', `url(${item.cover})`);
         }
 
         const label = document.createElement('span');
         label.classList.add('rect-label');
-        label.textContent = project.title;
+        label.textContent = item.title;
         rect.appendChild(label);
-        rect.addEventListener('click', () => openPopup(project));
+        rect.addEventListener('click', () => openPopup(item));
       }
 
       grid.appendChild(rect);
