@@ -11,6 +11,6 @@ For a few weeks now, [Ko de Beer](kodebeer.nl), [Sunjoo Lee](sunjoolee.com) and 
 
 ## Platform Mania
 ![Poster of Platform Mania](./assets/cms/news/media/platform-mania-nov-26.png)
-'''Watch this space''': my colleague Ellen Van den Assem curated [Platform Mania](https://www.kabk.nl/agenda/i-m-d-presents-series-of-lectures-platform-mania), the official Interactive / Media / Design public program at KABK! It's a series of lectures every Friday at KABK. It informs our effort to build a platform in I/M/D, to unlearn big tech and to learn our tech :)
+__Watch this space__: my colleague Ellen Van den Assem curated [Platform Mania](https://www.kabk.nl/agenda/i-m-d-presents-series-of-lectures-platform-mania), the official Interactive / Media / Design public program at KABK! It's a series of lectures every Friday at KABK. It informs our effort to build a platform in I/M/D, to unlearn big tech and to learn our tech :)
 
 You can find the current w.i.p. platform I am coding at [imd.page](https://imd.page)
