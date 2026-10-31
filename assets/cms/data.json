@@ -110,5 +110,27 @@
       "content": "./assets/cms/projects/la-symphonie-de-l-environnement.md"
     }
   ],
-  "news": []
+  "news": [
+    {
+      "type":"news",
+      "title":"FEB26",
+      "year":2026,
+      "cover":"./assets/cms/news/media/the-hmm-feb-26.gif",
+      "content":"./assets/cms/news/feb-26.md"
+    },
+    {
+      "type":"news",
+      "title":"JUL26",
+      "year":2026,
+      "cover":"./assets/cms/news/media/making-doorbells-jul-26.png",
+      "content":"./assets/cms/news/jul-26.md"
+    },
+    {
+      "type":"news",
+      "title":"NOV26",
+      "year":2026,
+      "cover":"./assets/cms/news/media/tool-against-digital-zionism-nov-26.png",
+      "content":"./assets/cms/news/nov-26.md"
+    },
+  ]
 }

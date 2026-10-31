@@ -51,7 +51,6 @@ function random(max) {
 }
 
 document.getElementById('popup-close').addEventListener('click', closePopup);
-
 function closePopup() {
   stage.classList.remove('popup-open');
 }
